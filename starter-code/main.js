@@ -108,7 +108,7 @@ var daysOfWeek = {
 
 const getDayOfWeek = (num) => {
 	if (daysOfWeek[num]) {
-		console.log(daysOfWeek[num])
+		return daysOfWeek[num]
 	}
 }
 
